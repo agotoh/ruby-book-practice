@@ -1,0 +1,13 @@
+inherit_from: .rubocop-todo.yml
+
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - db/schema.rb
+    - config/unicorn.rb
+    - config/unicorn_staging.rb
+    - tmp/**/*
+
+# 日本語でのコメントを許可
+AsciiComments:
+  Enabled: false
