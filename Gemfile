@@ -9,5 +9,12 @@ ruby '~> 2.4'
 
 # gem
 gem 'rubocop', require: false
+gem 'ruby-debug-ide'
+gem 'debase'
+gem 'rcodetools'
+gem 'ruby-lint'
+gem 'reek'
+gem 'faster'
+gem 'debride'
 
 # gem "rails"
