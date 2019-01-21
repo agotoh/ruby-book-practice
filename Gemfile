@@ -17,4 +17,8 @@ gem 'reek'
 gem 'faster'
 gem 'debride'
 
+gem 'pry'
+gem 'pry-doc'
+gem 'pry-byebug'
+
 # gem "rails"
